@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'QuanSlim';
+    src:url('QuanSlim-SemiLight.ttf') format('truetype');
+}
+nav{
+    background-color: gray;
+    width: 100vw;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'QuanSlim';
+}
+.top_menu{
+    display: flex;
+    justify-content: center;
+    li{
+        padding: 0 80px;
+
+        list-style-type: none;
+        a{
+            font-size: 30px;
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+.container_img{
+    display: flex;
+    justify-content: center;
+}
+.container_welcome{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px ;
+    justify-content: center;
+    text-align: center;
+    img{
+        width: 500px;
+        border-radius: 10%;
+    }
+}
+.welcome_text{
+    min-height: 100vh;
+    h1{
+        color: black;
+        text-align: center;
+        font-size: 3em;
+    }
+    h3{
+        color: black;
+        text-align: center;
+        font-size: 2em;
+        font-weight: lighter;
+    }
+}
