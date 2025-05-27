@@ -122,3 +122,19 @@ body{
         font-weight: lighter;
     }
 }
+.tags_text{
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    h2{
+        color: black;
+        text-align: center;
+        font-size: 3em;
+    }
+    h3{
+        color: black;
+        text-align: center;
+        font-size: 2em;
+        font-weight: lighter;
+    }
+}
